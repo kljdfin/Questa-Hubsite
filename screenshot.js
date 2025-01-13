@@ -32,9 +32,6 @@ function takeScreenshotAndRedirect() {
         link.href = screenshotData;
         link.download = 'screenshot.png'; // Set filename
         link.click();
-
-        // Redirect to Google.com
-        window.location.href = 'https://www.google.com';
     });
 }
 
